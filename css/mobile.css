@@ -1,0 +1,77 @@
+@media only screen and (max-width: 600px) {
+  .thay-anh::before {
+    display: none;
+    padding: 0px;
+  }
+  header {
+    height: 54vh;
+    width: 100%;
+    background-size: 100% 360px;
+
+    padding: 60px;
+  }
+  .container1 {
+    display: block;
+    padding: 30px;
+  }
+  .container1 div {
+    margin: 10px;
+  }
+  .info {
+    padding-left: 0px;
+  }
+  /*KINH NGHIỆM - KỸ NĂNG*/
+  .grid-phan1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    margin-top: 40px;
+  }
+  /*CHỨNG CHỈ - GIẢI THƯỞNG */
+  .grid- {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+
+    padding-bottom: 40px;
+  }
+  .grid-item {
+    display: block;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .chung-chi-1 {
+    border-bottom: 2px solid #d6c08d;
+  }
+  .chung-chi-2 {
+    border-bottom: 2px solid #d6c08d;
+  }
+  .chung-chi {
+    width: 100%;
+    height: 180px;
+  }
+  .cc1 ul {
+    padding-left: 0px;
+  }
+  #certificate > .container {
+    padding: 50px 30px;
+    margin-top: 30px;
+  }
+  /*DỰ ÁN*/
+  .Du-an {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  .line2 {
+    display: block;
+    gap: 15px;
+    align-items: center;
+  }
+  /*FOOTER*/
+  .network span {
+    display: none;
+  }
+}
